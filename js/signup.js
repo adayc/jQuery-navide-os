@@ -11,7 +11,14 @@ $email.on('input', function(event) {
 
 });
 
-    //console.log($email.val());
+$password.on('input', function(event) {
+    if($(this).val().length >= 6){
+        alert('cumple');
+    }else{
+        alert('no cumple');
+    }
+
+});
 
 
 });
